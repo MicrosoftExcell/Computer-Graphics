@@ -1,0 +1,7 @@
+Instructions:
+Open the HTML file in a browser, press the keys specified below the canvas to move the light/camera/model.
+If opening in Chrome you will need to use --allow-file-access-from-files or the textures will not be displayed.
+If opening in Safari you will need to select 'Disable Local File Restrictions' from the Develop menu to see the textures.
+
+Description:
+The 3D environment shows Neville House, Ustinov College. The models show a complex environment encapsulating Neville House, the gardens in front of it and the road next to it, including trees, bushes, benches, bike racks, fences, sculptures and more. There are several movable models, a car moving in the z direction along the road, windows moving in the y direction, automatic doors and a skateboard moving in the x direction and the large tree in the foreground rotating, with different objects moving at different speeds. There is directional (diffuse reflection) and ambient lighting. The position the directional light is coming from can be changed with the a,s,w,d keys. The virtual camera position can be moved using the 1,2,3,4,q,e keys and rotated using the f,h,t,g,5,6 keys. The model can be rotated with the arrow keys. There are comprehensive shader programs that determine the colour/texture of a surface and the amount of light it receives. All surfaces are appropriately coloured and texture mapping has been applied to the walls and roof of Neville House to give the effect of bricks and tiles and to the grass, trees and bushes for a more authentic look.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Durham</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="700" height="700">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>a,d: light source x translation, w,s: light source y translation</p>
+    <p>1,2: camera x translation, 3,4: camera y translation, q,e: camera z translation (zoom)</p>
+    <p>f,h: camera x rotation, t,g: camera y rotation, 5,6: camera rotation</p>
+    <p>&larr;,&rarr;: model x rotation, &uarr;,&darr;: model y rotation</p>
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="Durham.js"></script>
+  </body>
+</html>
